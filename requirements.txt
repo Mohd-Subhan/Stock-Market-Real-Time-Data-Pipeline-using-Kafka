@@ -1,0 +1,6 @@
+pandas
+kafka-python
+boto3
+s3fs
+jupyter
+notebook
