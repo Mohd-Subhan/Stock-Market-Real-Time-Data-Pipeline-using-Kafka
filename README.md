@@ -1,4 +1,4 @@
-\# 📈 Stock Market Real-Time Data Pipeline using Apache Kafka \& AWS
+\# 📈 Stock Market Real-Time Data Pipeline using Apache Kafka & AWS
 
 
 
@@ -24,56 +24,25 @@ The objective of this project is to simulate a real-world streaming architecture
 
 ```
 
-&#x20;          CSV Dataset
-
-&#x20;               │
-
-&#x20;               ▼
-
-&#x20;     Python Kafka Producer
-
-&#x20;               │
-
-&#x20;               ▼
-
-&#x20;         Apache Kafka Topic
-
-&#x20;               │
-
-&#x20;               ▼
-
-&#x20;     Python Kafka Consumer
-
-&#x20;               │
-
-&#x20;               ▼
-
-&#x20;          Amazon S3 Bucket
-
-&#x20;               │
-
-&#x20;               ▼
-
-&#x20;        AWS Glue Crawler
-
-&#x20;               │
-
-&#x20;               ▼
-
-&#x20;      Glue Data Catalog
-
-&#x20;               │
-
-&#x20;               ▼
-
-&#x20;         Amazon Athena
-
-&#x20;               │
-
-&#x20;               ▼
-
-&#x20;          SQL Analytics
-
+CSV Dataset
+      │
+      ▼
+Python Producer
+      │
+      ▼
+Apache Kafka
+      │
+      ▼
+Python Consumer
+      │
+      ▼
+Amazon S3
+      │
+      ▼
+AWS Glue
+      │
+      ▼
+Athena
 ```
 
 
